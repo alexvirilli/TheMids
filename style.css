@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+section {
+    height:100vh;
+    width: 100%;
+    display: flex;
+}
+
+#home {
+    background-color: crimson;
+}
+
+#about {
+    background-color: aquamarine;
+}
+
+#events {
+    background-color: magenta;
+}
+
+#contact {
+    background-color: orange;
+}
+
+#
