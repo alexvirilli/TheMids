@@ -9,7 +9,7 @@ nav {
   }
   
   nav .container {
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
@@ -36,9 +36,16 @@ nav {
       background-color: crimson;
       color: white;
   }
-.contact-us {
 
-    color: blue;
+  /* CONTACT US HOME PAGE */
+
+  body {
+    background-color: blueviolet;
+  }
+
+#contact-us {
+
+    background-color: blueviolet;
     height: 150vh;
 
 }

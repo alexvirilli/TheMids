@@ -62,19 +62,54 @@ nav {
     font-size: 3rem;
 }
 
+/* SHWOS */
+
+#shows h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+#shows .show-banner {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+
 #shows {
     background-color: aquamarine;
     display: block;
     height: auto;
 }
 
-#shows .container{
+#shows .vid-container{
   height: 281px;
   width: 500px;
-  padding: 10px;
   color: black;
   border-radius: 8px;
 }
+
+#shows .show-card {
+  display: flex;
+  padding:10px;
+
+}
+
+#shows .blurb {
+  height: auto;
+  background-color: whitesmoke;
+  text-align: center;
+  width: 75vh;
+}
+
+#shows .parent { 
+  display: grid;
+  place-items: center;
+
+}
+
+
+
+/* END SHOWS */
 
 
 
