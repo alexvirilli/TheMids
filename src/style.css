@@ -191,6 +191,7 @@ nav {
 
 #about .musician-card {
   display: flex;
+  padding: 15px;
 }
 
 #about .musician-pic{
@@ -213,8 +214,6 @@ nav {
 #about .buffer {
   height: 20vh;
 }
-
-
 
 /* END MEET THE MIDS */
 
