@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     navLinks.forEach(link => {
         if (currentUrl.includes(link.getAttribute('href'))) {
-            link.parentElement.classList.add('active'); // Set the parent li to active
+            link.parentElement.classList.add('active');
         } else {
             link.parentElement.classList.remove('active');
         }
