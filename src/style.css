@@ -109,7 +109,7 @@ nav {
     font-size: 3rem;
 }
 
-/* SHWOS */
+/* SHOWS */
 
 #shows span {
   display: inline-block;
@@ -144,6 +144,7 @@ nav {
 #shows .show-card {
   display: flex;
   padding:10px;
+  padding-bottom: 50px;
 
 }
 
@@ -160,11 +161,62 @@ nav {
 
 }
 
+#shows .buffer {
+  height: 20vh;
+}
 
 
 /* END SHOWS */
 
+/* MEET THE MIDS */
 
+#about img {
+  border-radius: 10px;
+}
+
+#about h1 {
+  font-size: 60px;
+}
+
+#about {
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+#about .parent { 
+  display: grid;
+  place-items: center;
+}
+
+#about .musician-card {
+  display: flex;
+}
+
+#about .musician-pic{
+  height: 281px;
+  width: 480px;
+  color: black;
+  border-radius: 8px;
+}
+
+#about .musician-blurb {
+  width: 50vh;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  text-align:center;
+  justify-content: center;
+
+}
+
+#about .buffer {
+  height: 20vh;
+}
+
+
+
+/* END MEET THE MIDS */
 
 #events {
     background-color: magenta;
