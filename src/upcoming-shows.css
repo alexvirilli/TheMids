@@ -1,0 +1,37 @@
+/* Nav Bar */
+
+nav {
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    background-color: #f5f5f5;
+  }
+  
+  nav .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+  }
+  nav .container ul li {
+    display: inline-block;
+  }
+  nav .container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+  }
+  nav .container ul li.active {
+    background-color: crimson;
+    transition: 0.3s ease background-color;
+  }
+  nav .container ul li.active a {
+    color: rgb(255, 255, 255);
+  }
+  
+  nav .container ul li a:hover {
+      background-color: crimson;
+      color: white;
+  }
