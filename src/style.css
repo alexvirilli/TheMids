@@ -62,9 +62,21 @@ nav {
     font-size: 3rem;
 }
 
-#about {
+#shows {
     background-color: aquamarine;
+    display: block;
+    height: auto;
 }
+
+#shows .container{
+  height: 281px;
+  width: 500px;
+  padding: 10px;
+  color: black;
+  border-radius: 8px;
+}
+
+
 
 #events {
     background-color: magenta;
@@ -73,4 +85,5 @@ nav {
 #contact {
     background-color: orange;
 }
+
 
