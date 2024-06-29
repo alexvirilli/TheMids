@@ -217,12 +217,93 @@ nav {
 
 /* END MEET THE MIDS */
 
-#events {
-    background-color: magenta;
+/* BOOKINGS */
+
+#bookings {
+  display: grid;
+  background-color: magenta;
+  text-align: center;
 }
 
-#contact {
-    background-color: orange;
+#bookings h1 {
+  font-size: 60px;
+  text-align: center;
 }
+
+#bookings .booking-banner {
+  text-align: center;
+  height: 0;
+}
+
+#bookings a {
+  display: grid;
+}
+
+#bookings .explainer {
+}
+
+
+@media (max-width: 768px) {
+  nav .container ul li {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  nav .container ul li a {
+    padding: 10px;
+  }
+  
+  #home .slideshow-container h1.slideshow-title {
+    font-size: 2rem;
+    padding: 5px 10px;
+  }
+
+  #shows h1, #about h1, #bookings h1 {
+    font-size: 40px;
+  }
+
+  #shows .vid-container, #about .musician-pic {
+    height: auto;
+    width: 100%;
+  }
+
+  #shows .blurb, #about .musician-blurb {
+    width: 100%;
+  }
+
+  #shows .show-card, #about .musician-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #shows .show-card {
+    padding-bottom: 30px;
+  }
+  
+  #home .slideshow-container {
+    height: auto;
+  }
+
+  section {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .container ul li a {
+    font-size: 14px;
+  }
+
+  #home .slideshow-container h1.slideshow-title {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  #shows h1, #about h1, #bookings h1 {
+    font-size: 30px;
+  }
+}
+
 
 
